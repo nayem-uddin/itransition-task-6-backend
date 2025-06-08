@@ -5,7 +5,7 @@ const { Server } = require("socket.io");
 const cors = require("cors");
 const db = require("./handleDB");
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: "https://itransition-task-6-frontend.vercel.app",
   methods: ["GET", "POST"],
   credentials: true,
 };
